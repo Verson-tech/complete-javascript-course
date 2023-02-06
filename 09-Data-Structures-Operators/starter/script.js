@@ -12,7 +12,7 @@ for (const flight of flights.split('+')) {
     status.startsWith('_Delayed') ? '🚫' : ''
   }${status.replaceAll('_', ' ')} ${getCode(destination)} ${getCode(
     origin
-  )} ${time.replace(':', 'h')}`;
+  )} (${time.replace(':', 'h')})`.padStart(37);
   console.log(output);
 }
 
