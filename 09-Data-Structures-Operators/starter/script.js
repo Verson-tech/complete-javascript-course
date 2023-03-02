@@ -20,7 +20,7 @@ for (const flight of flights.split('+')) {
 for (let i = 0; i <= 5; i++) {
   console.log('🌐'.repeat(i + 1));
 }
-for (let i = 6; i <= 6 && i >= 1; i--) {
+for (let i = 5; i <= 5 && i >= 1; i--) {
   console.log('🌐'.repeat(i));
 }
 // Data needed for first part of the section
